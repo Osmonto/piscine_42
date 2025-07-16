@@ -19,7 +19,7 @@ a.out
 *.zip
 .DS_Store
 # Ignore .DS_Store files (common on macOS)
-.DS_Store
+**/.DS_Store
 
 # Ignore a.out files (common C/C++ output)
 a.out
