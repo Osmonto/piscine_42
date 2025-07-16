@@ -1,0 +1,50 @@
+# Ignore all VS Code settings and workspace folders
+.vscode/
+
+# Ignore all zip archives
+*.zip
+
+# Ignore all JSON files
+*.json
+
+# Ignore all ZIP files
+*.zip
+
+# Ignore compiled binaries and build artifacts
+
+# Common C output files
+a.out
+
+# Ignore zip files and macOS system files
+*.zip
+.DS_Store
+# Ignore .DS_Store files (common on macOS)
+.DS_Store
+
+# Ignore a.out files (common C/C++ output)
+a.out
+
+# Ignore all files without an extension in ex* folders (binaries)
+C00/ex*/[a-zA-Z0-9_]*
+C01/ex*/[a-zA-Z0-9_]*
+C02/ex*/[a-zA-Z0-9_]*
+C03/ex*/[a-zA-Z0-9_]*
+C04/ex*/[a-zA-Z0-9_]*
+C05/ex*/[a-zA-Z0-9_]*
+C06/ex*/[a-zA-Z0-9_]*
+C07/ex*/[a-zA-Z0-9_]*
+C08/ex*/[a-zA-Z0-9_]*
+Rush01/[a-zA-Z0-9_]*
+Rush_test1/[a-zA-Z0-9_]*
+# But always include .c files
+!C00/ex*/*.c
+!C01/ex*/*.c
+!C02/ex*/*.c
+!C03/ex*/*.c
+!C04/ex*/*.c
+!C05/ex*/*.c
+!C06/ex*/*.c
+!C07/ex*/*.c
+!C08/ex*/*.c
+!Rush_test1/*.c
+!Rush01/*.c
